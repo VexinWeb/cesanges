@@ -1,14 +1,18 @@
-import Image from "next/image";
+export const metadata = {
+  title: "Aimé Cesanges | contact",
+};
 
-export default function Home() {
+const ContactPage = () => {
   const dynamicHeight: string = `calc(100vh - 400px)`;
 
   return (
-    <main
+    <div
       className="flex flex-col items-center justify-between p-24"
       style={{ minHeight: dynamicHeight }}
     >
-      <div>Page d&apos;accueil</div>
-    </main>
+      Page de contact
+    </div>
   );
-}
+};
+
+export default ContactPage;
