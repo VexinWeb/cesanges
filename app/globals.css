@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  img, video {
+    max-width: initial;
+    height: initial;
+  }
+}
+
+.text-stroke {
+  text-shadow: -1px -1px 0 gey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey;
+}
+
