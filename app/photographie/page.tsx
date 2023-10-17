@@ -60,17 +60,17 @@ const PhotographiePage = () => {
           </Link>
         ))}
       </div>
-      <div className="flex flex-row justify-between font-bold tracking-wide text-3xl my-10 px-4 sm:px-10">
+      <div className="flex flex-row justify-between font-bold tracking-wide my-10 px-4 sm:px-10 text-base sm:text-3xl">
         <Link href="/sculpture" className="flex">
           <div className="flex items-center pe-4">
-            <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
+            <ArrowBackIosIcon style={{ fontSize: "1.5rem" }} />
           </div>
           <div className="flex items-center">Sculpture</div>
         </Link>
         <Link href="/contact" className="flex">
           <div className="flex items-center">Contact</div>
           <div className="flex items-center ps-4">
-            <ArrowForwardIosIcon style={{ fontSize: "2rem" }} />
+            <ArrowForwardIosIcon style={{ fontSize: "1.5rem" }} />
           </div>
         </Link>
       </div>

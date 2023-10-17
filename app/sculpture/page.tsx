@@ -58,17 +58,17 @@ const SculpturePage = () => {
           </Link>
         ))}
       </div>
-      <div className="flex flex-row justify-between font-bold tracking-wide text-3xl my-10 px-4 sm:px-10">
+      <div className="flex flex-row justify-between font-bold tracking-wide my-10 px-4 sm:px-10 text-base sm:text-3xl">
         <Link href="/peinture" className="flex">
           <div className="flex items-center pe-4">
-            <ArrowBackIosIcon style={{ fontSize: "2rem" }} />
+            <ArrowBackIosIcon style={{ fontSize: "1.5rem" }} />
           </div>
-          <div className="flex items-center">Peinture</div>
+          <div className="flex items-center ">Peinture</div>
         </Link>
         <Link href="/photographie" className="flex">
           <div className="flex items-center">Photographie</div>
           <div className="flex items-center ps-4">
-            <ArrowForwardIosIcon style={{ fontSize: "2rem" }} />
+            <ArrowForwardIosIcon style={{ fontSize: "1.5rem" }} />
           </div>
         </Link>
       </div>
