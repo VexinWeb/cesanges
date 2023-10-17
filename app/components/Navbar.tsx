@@ -111,7 +111,9 @@ const Navbar = () => {
       <div className="block lg:hidden">
         <button
           className={`text-black relative z-50 ${
-            isHomePage || isContactPage ? "text-black" : "text-white"
+            isHomePage || isContactPage || isSculpturePage
+              ? "text-black"
+              : "text-white"
           }`}
           onClick={toggleMenu}
           aria-label="Toggle Menu"
