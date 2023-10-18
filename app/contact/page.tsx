@@ -108,7 +108,7 @@ const ContactPage = () => {
             </div>
             <div className="flex flex-col items-center">
               <button
-                className="my-6 py-8 w-80 text-white text-stroke"
+                className="my-6 py-8 w-80 text-white custom-text-stroke"
                 style={{ backgroundColor: backgroundColors[0] }} // Utilisez la première couleur
                 onClick={openFormOverlay}
               >
