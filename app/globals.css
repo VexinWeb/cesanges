@@ -9,7 +9,22 @@
   }
 }
 
-.text-stroke {
+.custom-text-stroke {
   text-shadow: -1px -1px 0 gey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey;
 }
 
+.custom-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

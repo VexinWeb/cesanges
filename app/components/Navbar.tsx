@@ -6,6 +6,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+//
+import { Fade } from "react-awesome-reveal";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -144,30 +146,37 @@ const Navbar = () => {
             <ArrowUpwardIcon style={{ fontSize: "2rem" }} />
           </button>
         )}
+
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute top-0 left-0 w-full h-fit pb-10 bg-slate-200 z-20`}
+          } absolute top-0 left-0 w-full h-fit pb-10 bg-slate-200 z-20 custom-fade-in`}
         >
           <ul className="flex flex-col items-center pt-10">
-            <Link href="/">
-              <button className="p-5 m-1" onClick={handleMenuItemClick}>
-                Mon travail
-              </button>
-            </Link>
-            <Link href="/contact">
-              <li className="p-5 m-1" onClick={handleMenuItemClick}>
-                Contact
-              </li>
-            </Link>
-            <a
-              target="_blank"
-              href="https://www.instagram.com/aime_cesanges_wolfgang/"
-            >
-              <li className="p-5 m-1" onClick={handleMenuItemClick}>
-                Instagram
-              </li>{" "}
-            </a>
+            <li>
+              <Link href="/">
+                <button className="p-5 m-1" onClick={handleMenuItemClick}>
+                  Mon travail
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <button className="p-5 m-1" onClick={handleMenuItemClick}>
+                  Contact
+                </button>
+              </Link>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/aime_cesanges_wolfgang/"
+              >
+                <div className="p-5 m-1" onClick={handleMenuItemClick}>
+                  Instagram
+                </div>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
