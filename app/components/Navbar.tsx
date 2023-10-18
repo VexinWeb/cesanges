@@ -6,8 +6,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-//
-import { Fade } from "react-awesome-reveal";
 
 const Navbar = () => {
   const pathname = usePathname();
