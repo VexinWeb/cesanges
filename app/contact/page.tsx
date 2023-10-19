@@ -105,26 +105,29 @@ const ContactPage = () => {
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <button
-                // className="my-6 py-8 w-80 text-white custom-text-stroke"
-                className="mt-6 py-8 w-80 text-white custom-text-stroke"
-                style={{ backgroundColor: backgroundColors[0] }} // Utilisez la première couleur
-                onClick={openFormOverlay}
-              >
-                Me contacter
-              </button>
+              {showForm ? (
+                // Si showForm est vrai, affichez le bouton "Fermer le formulaire" ou "Me contacter"
+                <button
+                  className="mt-6 py-8 w-80 text-white custom-text-stroke"
+                  style={{ backgroundColor: backgroundColors[0] }}
+                  onClick={closeFormOverlay}
+                >
+                  Me contacter
+                </button>
+              ) : (
+                // Si showForm est faux, affichez le bouton "Me contacter"
+                <button
+                  className="mt-6 py-8 w-80 text-white custom-text-stroke"
+                  style={{ backgroundColor: backgroundColors[0] }}
+                  onClick={openFormOverlay}
+                >
+                  Me contacter
+                </button>
+              )}
               {showForm && (
-                // <div className="overlay">
                 <div className="flex justify-left items-center">
                   {/* <div className="flex flex-col mt-12"> */}
-                  <div className="relative flex flex-col">
-                    <button
-                      // className="text-xs text-gray-600 text-right"
-                      className="absolute top-6 right-8 text-xs text-gray-600 text-center"
-                      onClick={closeFormOverlay}
-                    >
-                      Fermer le formulaire
-                    </button>
+                  <div className="flex flex-col">
                     <ContactForm />
                   </div>
                 </div>
