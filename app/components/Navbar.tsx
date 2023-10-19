@@ -121,7 +121,7 @@ const Navbar = () => {
       <div className="block lg:hidden">
         <button
           className={`text-black relative z-50 ${
-            isHomePage || isContactPage || isSculpturePage
+            isHomePage || isContactPage || isSculpturePage || confirmationPage
               ? "text-black"
               : "text-white"
           }`}
@@ -154,11 +154,10 @@ const Navbar = () => {
             <ArrowUpwardIcon style={{ fontSize: "2rem" }} />
           </button>
         )}
-
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute top-0 left-0 w-full h-fit pb-10 bg-slate-200 z-20 custom-fade-in`}
+          } absolute top-0 left-0 w-full h-fit pb-10 bg-slate-200 z-20 custom-fade-in custom-translate`}
         >
           <ul className="flex flex-col items-center pt-10">
             <li>

@@ -31,6 +31,7 @@ export default function Home() {
             className="absolute inset-0 w-full h-full object-cover transition-opacity group-hover:opacity-90"
             width={600}
             height={450}
+            priority={true}
           />
           <div className="absolute inset-0 w-full h-full flex items-center justify-center md:opacity-0 group-hover:opacity-100 transition-opacity">
             <p className="text-white text-3xl font-semibold tracking-wider">
