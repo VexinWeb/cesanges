@@ -36,7 +36,7 @@ export async function POST(request) {
     "\n\n";
 
   const mailOptions = {
-    from: "aimecesanges@gmail.com",
+    from: "aimecesanges@vexinweb.fr",
     to: "aimecesanges@gmail.com",
     cc: "contact@vexinweb.fr",
     subject: `Message depuis le site aimecesanges.fr de ${firstname} ${lastname} (${email})`,
