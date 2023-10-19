@@ -16,9 +16,9 @@ const ConfirmationPage = () => {
     >
       <div
         style={{
-          transform: "translateX(-200px)",
+          transform: "translateX(-400px)",
           //   transition: "transform 0.5s ease",
-          animation: "slideIn 1s forwards",
+          animation: "custom-slideIn 1s forwards",
         }}
         className="max-w-md mx-7 md:mx-auto flex align-center"
       >
