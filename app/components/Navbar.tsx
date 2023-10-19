@@ -12,6 +12,7 @@ const Navbar = () => {
   const isHomePage = pathname === "/";
   const isContactPage = pathname === "/contact";
   const isSculpturePage = pathname === "/sculpture";
+  const confirmationPage = pathname === "/confirmation";
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showScrollToTop, setShowScrollToTop] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
         {/* <div className="font-bold text-2xl sm:text-3xl tracking-wider"> */}
         <div
           className={`font-bold text-xl sm:text-2xl tracking-wider ${
-            isHomePage || isContactPage || isSculpturePage
+            isHomePage || isContactPage || isSculpturePage || confirmationPage
               ? "text-black"
               : "text-white"
           }`}
@@ -67,7 +68,10 @@ const Navbar = () => {
           <Link href="/">
             <li
               className={`p-5 m-1 text-lg font-light ${
-                isHomePage || isContactPage || isSculpturePage
+                isHomePage ||
+                isContactPage ||
+                isSculpturePage ||
+                confirmationPage
                   ? "text-black"
                   : "text-white"
               } ${!isContactPage ? "underline underline-offset-8" : ""}`}
@@ -79,7 +83,10 @@ const Navbar = () => {
           <Link href="/contact">
             <li
               className={`p-5 m-1 text-lg font-light ${
-                isHomePage || isContactPage || isSculpturePage
+                isHomePage ||
+                isContactPage ||
+                isSculpturePage ||
+                confirmationPage
                   ? "text-black"
                   : "text-white"
               } ${isContactPage ? "underline underline-offset-8" : ""}`}
@@ -94,7 +101,10 @@ const Navbar = () => {
           >
             <li
               className={`p-5 m-1 text-lg font-light ${
-                isHomePage || isContactPage || isSculpturePage
+                isHomePage ||
+                isContactPage ||
+                isSculpturePage ||
+                confirmationPage
                   ? "text-black"
                   : "text-white"
               }`}
