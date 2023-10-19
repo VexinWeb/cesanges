@@ -27,8 +27,6 @@ const ContactPage = () => {
     return color;
   };
 
-  //
-
   useEffect(() => {
     let colorsRef = []; // Créez une référence pour stocker les couleurs aléatoires
 
@@ -83,7 +81,7 @@ const ContactPage = () => {
             </div>
           ))}
         </div>
-        <div className="bg-slate-100 flex gap-4 my-10 py-16 min-w-80 flex-col md:flex-row">
+        <div className="bg-slate-100 flex gap-4 my-10 py-16 min-w-80 flex-col md:flex-row px-4 sm:px-10">
           <h1 className="w-full items-center font-semibold text-5xl justify-center flex">
             Contact
           </h1>
@@ -108,7 +106,8 @@ const ContactPage = () => {
             </div>
             <div className="flex flex-col items-center">
               <button
-                className="my-6 py-8 w-80 text-white custom-text-stroke"
+                // className="my-6 py-8 w-80 text-white custom-text-stroke"
+                className="mt-6 py-8 w-80 text-white custom-text-stroke"
                 style={{ backgroundColor: backgroundColors[0] }} // Utilisez la première couleur
                 onClick={openFormOverlay}
               >
@@ -117,9 +116,11 @@ const ContactPage = () => {
               {showForm && (
                 // <div className="overlay">
                 <div className="flex justify-left items-center">
-                  <div className="flex flex-col mt-12">
+                  {/* <div className="flex flex-col mt-12"> */}
+                  <div className="relative flex flex-col">
                     <button
-                      className="text-xs text-gray-600 text-right"
+                      // className="text-xs text-gray-600 text-right"
+                      className="absolute top-6 right-8 text-xs text-gray-600 text-center"
                       onClick={closeFormOverlay}
                     >
                       Fermer le formulaire

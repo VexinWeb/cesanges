@@ -20,7 +20,7 @@ const Footer = () => {
             src="/images/logos/vexinweb.png"
             alt="Logo VexinWEB"
             style={{
-              maxWidth: "100%",
+              width: "100%",
               maxHeight: "100px",
               objectFit: "contain",
             }}

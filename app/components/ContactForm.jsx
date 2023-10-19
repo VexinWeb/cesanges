@@ -63,9 +63,9 @@ const ContactForm = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mb-12">
+      {/* <h2 className="text-3xl font-bold text-center mb-12">
         Formulaire de contact
-      </h1>
+      </h2> */}
       <div>
         {/* Send message via contact form */}
         <div className="flex justify-center items-center bg-slate-200 py-12 w-80">
