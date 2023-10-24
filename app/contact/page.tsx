@@ -72,7 +72,8 @@ const ContactPage = () => {
               <div className="absolute w-full h-full object-cover">
                 <Image
                   src={imagePath}
-                  alt={`Image ${index + 1}`}
+                  // alt={`Image ${index + 1}`}
+                  alt="Photographie autoportrait"
                   className="w-full h-full object-cover opacity-70"
                   width={50}
                   height={50}
@@ -82,17 +83,31 @@ const ContactPage = () => {
           ))}
         </div>
         <div className="bg-slate-100 flex gap-4 my-10 py-16 min-w-80 flex-col md:flex-row px-4 sm:px-10">
-          <h1 className="w-full items-center font-semibold text-5xl justify-center flex">
+          <h1 className="w-full items-center font-semibold text-5xl justify-center flex px-4 sm:px-10 md:w-1/2">
             Contact
           </h1>
-          <div>
+          <div className="md:w-1/2">
             <p className="w-full flex items-center">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-              nulla iure officia, laudantium libero sed voluptatibus nihil
-              consequatur, molestiae quis ducimus nostrum, iste aut. Deserunt
-              corrupti ab mollitia fuga maxime!
+              Né en 1992, je suis un artiste autodidacte travaillant depuis mon
+              atelier à Albi, en Occitanie. Au cours de ma carrière artistique,
+              j&apos;ai créé et accumulé plus d&apos;un millier d&apos;œuvres
+              depuis le milieu des années 2000. Mon travail est une exploration
+              constante de l&apos;art à travers différentes disciplines,
+              notamment la peinture à l&apos;huile, la photographie et la
+              sculpture. Mes influences artistiques sont variées, mais je puise
+              une grande inspiration des maîtres classiques tels que Le
+              Caravage, Manet ou Courbet. Leurs œuvres ont façonné ma
+              compréhension de l&apos;art et influencé ma propre pratique
+              artistique. En parallèle, je m&apos;intéresse également à des
+              artistes contemporains tels que Cartier-Bresson, Basquiat et Bram
+              Bogart, qui apportent une dimension moderne à mon travail. Ma
+              collection, composée de plus de mille œuvres, témoigne de ma
+              passion pour l&apos;expression artistique et de mon désir de
+              partager des histoires visuelles uniques avec le monde. Mon art
+              est un reflet de mon voyage artistique, de mes influences et de
+              mon exploration continue de la créativité.
             </p>
-            <div className="my-4 flex flex-col md:flex-row">
+            <div className="mt-8 mb-4 flex flex-col md:flex-row">
               <div className="w-full pb-4">
                 <strong>E-mail</strong>
                 <br />
@@ -137,11 +152,11 @@ const ContactPage = () => {
         </div>
       </div>
       <div className="flex flex-row justify-between font-bold tracking-wide my-10 px-4 sm:px-10 text-base sm:text-3xl">
-        <Link href="/sculpture" className="flex">
+        <Link href="/photographie" className="flex">
           <div className="flex items-center pe-4">
             <ArrowBackIosIcon style={{ fontSize: "1.5rem" }} />
           </div>
-          <div className="flex items-center">Sculpture</div>
+          <div className="flex items-center">Photographie</div>
         </Link>
         <Link href="/peinture" className="flex">
           <div className="flex items-center">Peinture</div>
