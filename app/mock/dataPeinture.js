@@ -30,7 +30,7 @@ const dataPeinture = [
     location: "France",
     price: "1000 €",
     src: "/images/peinture/paint3.jpeg",
-    alt: "Peinture ",
+    alt: "Loneliness seen from the world of the invisible",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const dataPeinture = [
     location: "France",
     price: "3500 €",
     src: "/images/peinture/paint4.jpeg",
-    alt: "Peinture ",
+    alt: "Bouquet of flowers in a jam jar",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const dataPeinture = [
     location: "France",
     price: "1000 €",
     src: "/images/peinture/paint5.jpeg",
-    alt: "Peinture ",
+    alt: "Agrums or pupil",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const dataPeinture = [
     location: "France",
     price: "3500 €",
     src: "/images/peinture/paint6.jpeg",
-    alt: "Peinture ",
+    alt: "Portrait 2",
   },
   {
     id: 7,
@@ -74,18 +74,18 @@ const dataPeinture = [
     location: "France",
     price: "6500 €",
     src: "/images/peinture/paint7.jpeg",
-    alt: "Peinture ",
+    alt: "A musician",
   },
   {
     id: 8,
-    title: "",
-    material: "",
-    dimensions: "",
+    title: "Iris numéro 3",
+    material: "Oil on canvas",
+    dimensions: "100*120cm",
     date: "",
     location: "",
-    price: "",
+    price: "1000 €",
     src: "/images/peinture/paint8.jpeg",
-    alt: "Peinture ",
+    alt: "Iris numéro 3",
   },
 ];
 

@@ -15,7 +15,7 @@ const SculpturePage = () => {
       <div className="flex flex-col items-center justify-between h-screen">
         <Image
           src="/images/sculpture/1.png"
-          alt="Image 1"
+          alt="Sculpture"
           className=" inset-0 w-full h-full object-contain"
           width={600}
           height={600}
@@ -26,10 +26,16 @@ const SculpturePage = () => {
           Sculpture
         </h1>
         <p className="w-full flex items-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nulla
-          iure officia, laudantium libero sed voluptatibus nihil consequatur,
-          molestiae quis ducimus nostrum, iste aut. Deserunt corrupti ab
-          mollitia fuga maxime!
+          Mes sculptures sont créées en utilisant une armature, du tissu et de
+          l&apos;argile, puis elles sont peintes en couches successives avec de
+          l&apos;acrylique ou de l&apos;huile. Elles donnent vie à une variété
+          de créatures, réelles ou imaginaires, inspirées du monde vivant. Leurs
+          tailles varient, allant de 20 à 30 cm pour des pièces plus petites et
+          détaillées, jusqu&apos;à des formats à échelle humaine pour des œuvres
+          plus imposantes. À travers ma sculpture, j&apos;exprime la vie et
+          l&apos;imaginaire, créant des œuvres uniques qui racontent des
+          histoires à travers la texture, la forme et la couleur. Je suis ravi
+          de partager cette dimension artistique avec vous.
         </p>
       </div>
       {/*  */}

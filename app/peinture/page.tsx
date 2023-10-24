@@ -17,7 +17,7 @@ const PeinturePage = () => {
       <div className="flex flex-col items-center justify-between h-screen">
         <Image
           src={firstImageDataPeinture.src}
-          alt="Image 1"
+          alt="Peinture"
           className=" inset-0 w-full h-full object-cover"
           width={600}
           height={600}
@@ -28,10 +28,19 @@ const PeinturePage = () => {
           Peinture
         </h1>
         <p className="w-full flex items-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nulla
-          iure officia, laudantium libero sed voluptatibus nihil consequatur,
-          molestiae quis ducimus nostrum, iste aut. Deserunt corrupti ab
-          mollitia fuga maxime!
+          Mon principal mode d&apos;expression artistique est la peinture à
+          l&apos;huile, une technique riche en profondeur et en textures. Je
+          crée mes œuvres sur divers supports tels que la toile, le carton, le
+          papier spécialement conçu pour l&apos;huile, et le bois, explorant
+          ainsi diverses possibilités artistiques. Lorsque j&apos;utilise du
+          papier, je choisis un type adapté à la peinture à l&apos;huile,
+          éliminant ainsi le besoin de Gesso. Mes créations varient en taille,
+          allant du format A5 pour des œuvres plus intimes à des dimensions
+          impressionnantes de 1 mètre sur 1,5 mètre, offrant ainsi une diversité
+          d&apos;options pour les amateurs d&apos;art. À travers la peinture à
+          &apos; l&apos;huile, je partage mes émotions, idées et ma vision
+          artistique, racontant des histoires uniques avec passion et
+          dévouement.
         </p>
       </div>
       {/*  */}
